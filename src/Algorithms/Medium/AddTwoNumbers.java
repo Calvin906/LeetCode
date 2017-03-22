@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Medium;
 
 /**
  * Created by Wags on 3/21/17.

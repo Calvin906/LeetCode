@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Medium;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,7 +9,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         String s = "dvdf";
-        System.out.print(lengthOfLongestSubstring(s));
+        System.out.println(lengthOfLongestSubstring(s));
     }
 
     /**
@@ -24,7 +24,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
      * Given "pwwkew", the answer is "wke", with the length of 3.
      * Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
      *
-     * RUNTIME: O(N) 
+     * RUNTIME: O(N)
      *
      * @param s
      * @return
@@ -44,4 +44,5 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return max;
     }
+
 }
