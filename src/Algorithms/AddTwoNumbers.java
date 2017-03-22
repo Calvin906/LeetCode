@@ -42,6 +42,8 @@ public class AddTwoNumbers {
      * <p/>
      * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
      * Output: 7 -> 0 -> 8
+     * <p/>
+     * RUNTIME: O(N)
      *
      * @param l1
      * @param l2
